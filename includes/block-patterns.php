@@ -57,7 +57,7 @@ function register_block_patterns()
         $pattern_file = THEME_DIR . 'includes/patterns/' . $block_pattern . '.php';
 
         register_block_pattern(
-            'ph_THEME-PREFIX' . '/' . $block_pattern,
+            'mdb-kanzlei' . '/' . $block_pattern,
             require $pattern_file
         );
     endforeach;
