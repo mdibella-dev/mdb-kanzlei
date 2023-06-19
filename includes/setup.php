@@ -3,7 +3,7 @@
  * Main functions for setting up the theme.
  *
  * @author  Marco Di Bella
- * @package ph_THEME-PACKAGE
+ * @package mdb-kanzlei
  */
 
 namespace ph_THEME_NAMESPACE;

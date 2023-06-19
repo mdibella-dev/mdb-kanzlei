@@ -3,7 +3,7 @@
  * Additional setup for the block patterns.
  *
  * @author  Marco Di Bella
- * @package ph_THEME-PACKAGE
+ * @package mdb-kanzlei
  */
 
 namespace ph_THEME_NAMESPACE;
