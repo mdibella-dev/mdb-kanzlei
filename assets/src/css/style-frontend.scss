@@ -15,3 +15,13 @@
 /** Mixins */
 
 @import "mixins/_responsive";
+
+
+/** Basic framework */
+
+@import "site/_basics";
+
+
+/** Main components */
+
+@import "site/components/_index";
