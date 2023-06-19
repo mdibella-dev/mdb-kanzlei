@@ -171,7 +171,7 @@
             "heading": {
                 "typography": {
                     "fontFamily": "var(--wp--preset--font-family--primary)",
-                    "fontWeight": "500",
+                    "fontWeight": "400",
                     "fontSize": "var(--wp--preset--font-size--large)",
                     "lineHeight": "1.3"
                 },
