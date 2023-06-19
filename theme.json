@@ -119,7 +119,7 @@
         },
         "spacing": {
             "margin": true,
-            "padding": false,
+            "padding": true,
             "spacingScale": {
                 "steps": 0
             },
