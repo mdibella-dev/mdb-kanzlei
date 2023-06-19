@@ -1,0 +1,26 @@
+/**
+ * Component: #app (wrapper of #main and #navbar)
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+
+#app {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto;     // temporary
+
+    body.logged-in.admin-bar & {
+        height: calc(100vh - var(--wp-admin--admin-bar--height));
+        height: calc(100dvh - var(--wp-admin--admin-bar--height));
+    }
+}

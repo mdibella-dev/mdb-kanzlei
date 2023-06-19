@@ -1,0 +1,68 @@
+/**
+ * HTML tags
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+html {
+    font-size: 16px;
+    margin: 0 !important;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; // prevent scrolling at overflow:hidden (iOS)
+    overflow: hidden;
+    background: var(--wp--preset--color--white);
+    color: var(--wp--preset--color--primary);
+}
+
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+p,
+ol,
+ul {
+    // typography
+    font-family: var(--wp--preset--font-family--primary);
+    font-weight: 200;
+    font-size: var(--wp--preset--font-size--medium);
+    line-height: 1.6;
+    letter-spacing: .2px;
+    color: var(--wp--preset--color--primary);
+}
+
+
+
+/**
+ * Basic elements
+ *
+ * These basic elements are partly designed via settings contained in the theme.json file.
+ * Settings that exceed the current capabilities of theme.json (as of June 2023) and/or are necessary for reasons of compatibility can be found at this point.
+ */
+
+
+/** theme.json element: link */
+
+a {
+    transition: all .2s;
+}
