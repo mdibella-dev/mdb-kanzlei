@@ -14,9 +14,16 @@
                     "slug": "white",
                     "color": "#ffffff"
                 }
-            ]
+            ],
+            "gradients": [],
+            "duotone": [],
+            "defaultPalette" : false,
+            "defaultGradients": false,
+            "customGradient": false,
+            "customDuotone": false
         },
         "typography": {
+            "fluid": true,
             "fontFamilies": [
                 {
                     "name": "",
@@ -28,7 +35,114 @@
                     "slug": "secondary",
                     "fontFamily": ""
                 }
+            ],
+            "fontSizes": [
+                {
+                    "size": "0.875rem",
+                    "fluid": {
+                        "min": "0.875rem",
+                        "max": "1rem"
+                    },
+                    "slug": "small",
+                    "name": "Small"
+                },
+                {
+                    "size": "1rem",
+                    "fluid": {
+                        "min": "1rem",
+                        "max": "1.25rem"
+                    },
+                    "slug": "medium",
+                    "name": "Medium"
+                },
+                {
+                    "size": "1.375rem",
+                    "fluid": {
+                        "min": "1.375rem",
+                        "max": "1.625rem"
+                    },
+                    "slug": "large",
+                    "name": "Large"
+                },
+                {
+                    "size": "2rem",
+                    "fluid": {
+                        "min": "2rem",
+                        "max": "2.625rem"
+                    },
+                    "slug": "x-large",
+                    "name": "X-large"
+                },
+                {
+                    "size": "3rem",
+                    "fluid": {
+                        "min": "3rem",
+                        "max": "4rem"
+                    },
+                    "slug": "xx-large",
+                    "name": "2X-Large"
+                }
+            ],
+            "fontWeight": false,
+            "fontStyle": false,
+            "letterSpacing": false,
+            "textDecoration": false,
+            "textTransform": false,
+            "dropCap": false
+        },
+        "layout": {
+            "contentSize": "960px",
+            "wideSize": "1280px"
+        },
+        "spacing": {
+            "margin": true,
+            "padding": false,
+            "spacingScale": {
+                "steps": 0
+            },
+            "spacingSizes": [
+                {
+                    "size": "clamp(1.5rem, 5vw, 2rem)",
+                    "slug": "30",
+                    "name": "1"
+                },
+                {
+                    "size": "clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem)",
+                    "slug": "40",
+                    "name": "2"
+                },
+                {
+                    "size": "clamp(2.5rem, 8vw, 4.5rem)",
+                    "slug": "50",
+                    "name": "3"
+                },
+                {
+                    "size": "clamp(3.75rem, 10vw, 7rem)",
+                    "slug": "60",
+                    "name": "4"
+                },
+                {
+                    "size": "clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem)",
+                    "slug": "70",
+                    "name": "5"
+                },
+                {
+                    "size": "clamp(7rem, 14vw, 11rem)",
+                    "slug": "80",
+                    "name": "6"
+                }
             ]
+        },
+        "useRootPaddingAwareAlignments": true,
+    },
+    "styles": {
+        "spacing": {
+            "padding": {
+                "top": "var(--wp--preset--spacing--40)",
+                "right": "var(--wp--preset--spacing--30)",
+                "bottom": "var(--wp--preset--spacing--40)",
+                "left": "var(--wp--preset--spacing--30)"
+            }
         }
     }
 }
