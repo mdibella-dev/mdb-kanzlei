@@ -13,6 +13,16 @@
                     "name": "White",
                     "slug": "white",
                     "color": "#ffffff"
+                },
+                {
+                    "name": "Primary",
+                    "slug": "primary",
+                    "color": "hsl(222,7%,53%)"
+                },
+                {
+                    "name": "Secondary",
+                    "slug": "secondary",
+                    "color": "hsl(200,100%,41%)"
                 }
             ],
             "gradients": [],
@@ -26,12 +36,12 @@
             "fluid": true,
             "fontFamilies": [
                 {
-                    "name": "",
+                    "name": "Primary",
                     "slug": "primary",
                     "fontFamily": ""
                 },
                 {
-                    "name": "",
+                    "name": "Secondary",
                     "slug": "secondary",
                     "fontFamily": ""
                 }
