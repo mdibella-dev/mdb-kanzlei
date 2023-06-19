@@ -1,5 +1,5 @@
-# ph_THEME-TITLE
-ph_THEME-DESCRIPTION
+# Kanzlei
+This is a WordPress theme for the website www.dr-grosskopf.de (Kanzlei Großkopf+Klein), a law firm.
 
 <br>
 
@@ -13,11 +13,11 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive
 
 ### Requires at least
 
-* WordPress ph_WORDPRESS-MINIMUM-VERSION
+* WordPress 6.2.0
 
 ### Tested up to
 
-* WordPress ph_WORDPRESS-VERSION
+* WordPress 6.2.2
 
 <br>
 
@@ -28,10 +28,4 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive
 
 ### Previous changes
 
-See [CHANGELOG.md](https://github.com/mdibella-dev/theme-template/blob/main/CHANGELOG.md).
-
-<br>
-
-## License
-
-This package ist released under the **MIT License**. See [LICENSE.md](https://github.com/mdibella-dev/theme-template/blob/main/LICENSE.md) for further details.
+See [CHANGELOG.md](https://github.com/mdibella-dev/mdb-kanzlei/blob/main/CHANGELOG.md).
