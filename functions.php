@@ -33,3 +33,4 @@ define( __NAMESPACE__ . "\THEME_URI", get_template_directory_uri() .'/' );    //
 
 require_once( THEME_DIR . 'includes/setup.php' );
 require_once( THEME_DIR . 'includes/block-styles.php' );
+require_once( THEME_DIR . 'includes/block-editor.php' );
