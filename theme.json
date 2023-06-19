@@ -163,6 +163,13 @@
                     "margin": true,
                     "padding": true
                 }
+            },
+            "core/columns": {
+                "spacing": {
+                    "margin": true,
+                    "padding": false,
+                    "blockGap": true
+                }
             }
         }
     },
