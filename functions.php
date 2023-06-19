@@ -6,7 +6,7 @@
  * @package mdb-kanzlei
  */
 
-namespace ph_THEME_NAMESPACE;
+namespace mdb_kanzlei;
 
 
 /** Prevent direct access */

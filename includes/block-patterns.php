@@ -6,7 +6,7 @@
  * @package mdb-kanzlei
  */
 
-namespace ph_THEME_NAMESPACE;
+namespace mdb_kanzlei;
 
 
 /** Prevent direct access */
@@ -63,4 +63,4 @@ function register_block_patterns()
     endforeach;
 }
 
-add_action( 'init', 'ph_THEME_NAMESPACE\register_block_patterns', 9 );
+add_action( 'init', 'mdb_kanzlei\register_block_patterns', 9 );

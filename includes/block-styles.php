@@ -6,7 +6,7 @@
  * @package mdb-kanzlei
  */
 
-namespace ph_THEME_NAMESPACE;
+namespace mdb_kanzlei;
 
 
 /** Prevent direct access */
@@ -35,4 +35,4 @@ function register_block_styles()
     );
 }
 
-add_action( 'enqueue_block_editor_assets', 'ph_THEME_NAMESPACE\register_block_styles' );
+add_action( 'enqueue_block_editor_assets', 'mdb_kanzlei\register_block_styles' );

@@ -6,7 +6,7 @@
  * @package mdb-kanzlei
  */
 
-namespace ph_THEME_NAMESPACE;
+namespace mdb_kanzlei;
 
 
 /** Prevent direct access */
@@ -40,7 +40,7 @@ defined( 'ABSPATH' ) or exit;
     add_editor_style( 'assets/build/css/style-editor.min.css' );        // change path/name if necessary
 }
 
-add_action( 'after_setup_theme', 'ph_THEME_NAMESPACE\theme_setup' );
+add_action( 'after_setup_theme', 'mdb_kanzlei\theme_setup' );
 
 
 
@@ -78,4 +78,4 @@ function enqueue_theme_scripts()
     );
 }
 
-add_action( 'wp_enqueue_scripts', 'ph_THEME_NAMESPACE\enqueue_theme_scripts', 9999 );
+add_action( 'wp_enqueue_scripts', 'mdb_kanzlei\enqueue_theme_scripts', 9999 );
