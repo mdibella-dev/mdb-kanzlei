@@ -1,0 +1,13 @@
+/**
+ * Block: core/heading
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+.wp-block-heading.is-stlye-thin-blue-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--wp--preset--color--secondary);
+    text-underline-offset: 10px;
+}
