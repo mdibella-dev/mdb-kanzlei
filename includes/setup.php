@@ -38,10 +38,6 @@ defined( 'ABSPATH' ) or exit;
     // Adds editor styles.
     add_theme_support( 'editor-styles' );
     add_editor_style( 'assets/build/css/style-editor.min.css' );        // change path/name if necessary
-
-
-    // Registers the navigation menus.
-    register_nav_menu( 'primary', __( 'Primary Navigation', 'mdb-kanzlei' ) );
 }
 
 add_action( 'after_setup_theme', 'mdb_kanzlei\theme_setup' );
