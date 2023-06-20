@@ -1,0 +1,36 @@
+/**
+ * Styles
+ *
+ * @author  Marco Di Bella
+ * @package mdb-theme-fse
+ */
+
+
+
+/**
+ * Padding and margin control
+ */
+
+.no-padding-top {
+    padding-top: 0 !important;
+}
+
+
+.no-padding-bottom {
+    padding-bottom: 0 !important;
+}
+
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+
+.set-on-top {
+    margin-top: calc(var(--wp--style--root--padding-top) * -1);
+}
