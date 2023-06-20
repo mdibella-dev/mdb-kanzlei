@@ -236,7 +236,7 @@
                     }
                 }
             },
-            "block/heading": {
+            "core/heading": {
                 "spacing": {
                     "margin": {
                         "top": "0",
