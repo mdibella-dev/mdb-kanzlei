@@ -67,4 +67,18 @@ wp.domReady( () => {
             }
         ]
     );
+
+
+    /** core/table */
+
+    wp.blocks.registerBlockStyle(
+        'core/table',
+        [
+            {
+                name: 'contact',
+                label: 'Kontaktinformation',
+                isDefault: false,
+            }
+        ]
+    );
 } );

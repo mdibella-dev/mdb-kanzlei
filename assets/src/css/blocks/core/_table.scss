@@ -1,0 +1,26 @@
+/**
+ * Block: core/table
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+.wp-block-table.is-style-contact {
+
+    td {
+        border: none;
+        padding: 0;
+
+        font-family: var(--wp--preset--font-family--primary);
+        font-weight: 300;
+        font-size: var(--wp--preset--font-size--medium);
+        line-height: 1.6;
+        letter-spacing: .2px;
+        color: var(--wp--preset--color--primary);
+    }
+
+    tr td:first-child {
+        width: 20%;
+    }
+}
