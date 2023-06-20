@@ -30,7 +30,8 @@ defined( 'ABSPATH' ) or exit;
 function block_editor_settings_all( $editor_settings )
 {
     $editor_settings['styles'][] = array(
-        'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; }'
+        'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; } '
+                 . '.editor-styles-wrapper { padding-bottom: 0 !important; }'
     );
 
     return $editor_settings;
