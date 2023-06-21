@@ -40,7 +40,7 @@ defined( 'ABSPATH' ) or exit;
     add_editor_style( 'assets/build/css/style-editor.min.css' );        // change path/name if necessary
 }
 
-add_action( 'after_setup_theme', 'mdb_kanzlei\theme_setup' );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
 
 
 
@@ -79,4 +79,4 @@ function enqueue_theme_scripts()
 */
 }
 
-add_action( 'wp_enqueue_scripts', 'mdb_kanzlei\enqueue_theme_scripts', 9999 );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_theme_scripts', 9999 );
