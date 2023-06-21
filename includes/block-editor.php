@@ -26,7 +26,7 @@ defined( 'ABSPATH' ) or exit;
  *
  * @return array The modified settings.
  */
-
+/*
 function block_editor_settings_all( $editor_settings )
 {
     $editor_settings['styles'][] = array(
@@ -38,14 +38,14 @@ function block_editor_settings_all( $editor_settings )
     return $editor_settings;
 }
 
-add_filter( 'block_editor_settings_all', __NAMESPACE__ .'\mdb_kanzlei\block_editor_settings_all' );
+add_filter( 'block_editor_settings_all', __NAMESPACE__ .'\block_editor_settings_all' );
+*/
 
 
 
 
 
-/*
-function enqueue_block_editor_assets() 
+function enqueue_block_editor_assets()
 {
     $styles = '
         .block-editor .edit-post-visual-editor__post-title-wrapper {
@@ -61,5 +61,3 @@ function enqueue_block_editor_assets()
 }
 
 add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
-
-*/
