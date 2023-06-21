@@ -20,9 +20,12 @@
 #main > .entry-content {
     padding-top: var(--wp--style--root--padding-top);
     padding-bottom: var(--wp--style--root--padding-bottom);
-}
 
+    & > :first-child {
+        margin-top: 0;
+    }
 
-#main footer {
-
+    & > :last-child {
+        margin-bottom: 0;
+    }
 }

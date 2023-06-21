@@ -8,10 +8,11 @@
 
 
 .wp-block-columns.is-style-thin-blue-border {
-    gap: 2rem;
+    gap: 1.25rem;
 
     .wp-block-column {
         border: 2px solid var(--wp--preset--color--secondary);
+        border-radius: 3px;
         padding: 1rem;
     }
 }
