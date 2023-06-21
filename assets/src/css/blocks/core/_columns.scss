@@ -1,0 +1,17 @@
+/**
+ * Block: core/columns
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+
+.wp-block-columns.is-style-thin-blue-border {
+    gap: 2rem;
+
+    .wp-block-column {
+        border: 2px solid var(--wp--preset--color--secondary);
+        padding: 1rem;
+    }
+}

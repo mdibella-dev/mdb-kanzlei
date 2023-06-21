@@ -9,17 +9,6 @@ wp.domReady( () => {
         ]
     );
 
-    wp.blocks.registerBlockStyle(
-        'core/image',
-        [
-            {
-                name: 'shaded',
-                label: 'Schattiert',
-                isDefault: false,
-            }
-        ]
-    );
-
 
     /** core/embed */
 
@@ -77,6 +66,20 @@ wp.domReady( () => {
             {
                 name: 'contact',
                 label: 'Kontaktinformation',
+                isDefault: false,
+            }
+        ]
+    );
+
+
+    /** core/columns */
+
+    wp.blocks.registerBlockStyle(
+        'core/columns',
+        [
+            {
+                name: 'thin-blue-border',
+                label: 'Blaue Umrandung',
                 isDefault: false,
             }
         ]
