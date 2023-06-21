@@ -31,7 +31,7 @@ function block_editor_settings_all( $editor_settings )
 {
     $editor_settings['styles'][] = array(
         'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; } '
-                 . '.editor-styles-wrapper { padding-bottom: 0 !important; }'
+                 . '.block-editor-block-list__block.wp-block[data-type="wpmapblock/wp-map-block"] {height: 0;}'
     );
 
     return $editor_settings;
