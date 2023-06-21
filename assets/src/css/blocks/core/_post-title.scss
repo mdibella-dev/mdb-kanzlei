@@ -1,0 +1,15 @@
+/**
+ * Block: core/post-title
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+.wp-block-post-title.is-style-thin-blue-underline {
+    text-decoration: underline;
+    text-decoration-color: var(--wp--preset--color--secondary);
+    text-underline-offset: 1rem;
+    font-weight: 200;
+    margin-bottom: var(--wp--preset--spacing--50);
+}

@@ -58,6 +58,20 @@ wp.domReady( () => {
     );
 
 
+    /** core/heading */
+
+    wp.blocks.registerBlockStyle(
+        'core/post-title',
+        [
+            {
+                name: 'thin-blue-underline',
+                label: 'Blauer Unterstrich',
+                isDefault: false,
+            }
+        ]
+    );
+
+
     /** core/table */
 
     wp.blocks.registerBlockStyle(
