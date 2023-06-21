@@ -26,38 +26,18 @@ defined( 'ABSPATH' ) or exit;
  *
  * @return array The modified settings.
  */
-/*
+
 function block_editor_settings_all( $editor_settings )
 {
-    $editor_settings['styles'][] = array(
-        'css' => '.edit-post-visual-editor__post-title-wrapper { display: none; } '
-                 . '.block-editor-block-list__block.wp-block[data-type="wpmapblock/wp-map-block"] {height: 0;} '
-                 . '.editor-styles-wrapper { padding-bottom: 0 !important; } '
-    );
+    $styles = '
+        .edit-post-visual-editor__post-title-wrapper {
+            display: none;
+        }
+    ';
+
+    $editor_settings['styles'][] = array( 'css' => $styles );
 
     return $editor_settings;
 }
 
 add_filter( 'block_editor_settings_all', __NAMESPACE__ .'\block_editor_settings_all' );
-*/
-
-
-
-
-
-function enqueue_block_editor_assets()
-{
-    $styles = '
-        .block-editor .edit-post-visual-editor__post-title-wrapper {
-            display: none;
-        }
-
-        .block-editor .editor-styles-wrapper {
-            padding-bottom: 0 !important;
-        }
-    ';
-
-    wp_add_inline_style( 'block-editor-styles',  $styles );
-}
-
-add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\enqueue_block_editor_assets' );
