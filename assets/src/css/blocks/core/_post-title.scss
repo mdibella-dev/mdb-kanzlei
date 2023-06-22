@@ -13,3 +13,8 @@
     font-weight: 200;
     margin-bottom: var(--wp--preset--spacing--60);
 }
+
+
+.wp-block-post-title. + .wp-block-heading {
+    margin-top: 0;
+}
