@@ -1,0 +1,41 @@
+/**
+ * Component: #header
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+
+#header .wp-block-navigation__container {
+    gap: 1rem;
+}
+
+
+#header .wp-block-navigation-item__content {
+    display: block;
+    position: relative;
+    padding: 4px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: var(--wp--preset--font-size--normal);
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: var(--wp--preset--color--secondary);
+
+    &::before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        transition: 0.5s transform ease;
+        transform: scale3d(0,1,1);
+        background: var(--wp--preset--color--secondary);
+    }
+
+    &:hover::before{
+        transform: scale3d(1,1,1);
+    }
+}
