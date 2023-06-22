@@ -197,6 +197,12 @@
                 },
                 "color": {
                     "text": "var(--wp--preset--color--primary)"
+                },
+                "spacing": {
+                    "margin": {
+                        "top": "0",
+                        "bottom": "var(--wp--preset--spacing--40)"
+                    }
                 }
             },
             "h1": {
@@ -244,7 +250,8 @@
             "core/heading": {
                 "spacing": {
                     "margin": {
-                        "top": "var(--wp--preset--spacing--40)"
+                        "top": "var(--wp--preset--spacing--50)",
+                        "bottom": "var(--wp--preset--spacing--30)"
                     }
                 }
             }
