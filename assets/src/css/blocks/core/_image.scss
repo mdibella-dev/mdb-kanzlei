@@ -1,0 +1,18 @@
+/**
+ * Block: core/image, core/media
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+.wp-block-media-text__media img,
+.wp-block-media-text__media video,
+.wp-block-image img {
+    border-radius: 3px;
+}
+
+
+.wp-block-image.has-fine-shadow img {
+    box-shadow: 0 8px 30px -8px rgba(0,0,0,.3);
+}
