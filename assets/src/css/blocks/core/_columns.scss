@@ -6,6 +6,21 @@
  */
 
 
+.wp-block-columns {
+    gap: 1.5rem;
+}
+
+
+.wp-block-column {
+    & > :first-child {
+        margin-top: 0;
+    }
+
+    & > :last-child {
+        margin-bottom: 0;
+    }
+}
+
 
 .wp-block-columns.is-style-thin-blue-border {
     gap: 1.25rem;
