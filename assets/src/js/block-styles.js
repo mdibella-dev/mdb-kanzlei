@@ -98,4 +98,19 @@ wp.domReady( () => {
             }
         ]
     );
+
+
+
+    /** core/paragraph */
+
+    wp.blocks.registerBlockStyle(
+        'core/paragraph',
+        [
+            {
+                name: 'fine-text-shadow',
+                label: 'Feiner Textschatten',
+                isDefault: false,
+            }
+        ]
+    );
 } );
