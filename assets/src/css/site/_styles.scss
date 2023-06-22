@@ -31,6 +31,6 @@
 }
 
 
-.set-on-top {
-    margin-top: calc(var(--wp--style--root--padding-top) * -1);
+.no-root-padding-top {
+    margin-top: calc(var(--wp--style--root--padding-top) * -1) !important;
 }
