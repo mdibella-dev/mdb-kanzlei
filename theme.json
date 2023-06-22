@@ -120,7 +120,6 @@
         "spacing": {
             "margin": true,
             "padding": true,
-            "blockGap": false,
             "spacingScale": {
                 "steps": 0
             },
