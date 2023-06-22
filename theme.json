@@ -203,7 +203,7 @@
                 "spacing": {
                     "margin": {
                         "top": "0",
-                        "bottom": "var(--wp--preset--spacing--40)"
+                        "bottom": "var(--wp--preset--spacing--30)"
                     }
                 }
             },
@@ -252,7 +252,7 @@
             "core/heading": {
                 "spacing": {
                     "margin": {
-                        "top": "var(--wp--preset--spacing--50)",
+                        "top": "0",
                         "bottom": "var(--wp--preset--spacing--30)"
                     }
                 }
