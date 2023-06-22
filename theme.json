@@ -120,6 +120,7 @@
         "spacing": {
             "margin": true,
             "padding": true,
+            "blockGap": false,
             "spacingScale": {
                 "steps": 0
             },
@@ -185,7 +186,8 @@
                 "right": "var(--wp--preset--spacing--30)",
                 "bottom": "var(--wp--preset--spacing--40)",
                 "left": "var(--wp--preset--spacing--30)"
-            }
+            },
+            "blockGap": "1.5em"
         },
         "elements": {
             "heading": {
