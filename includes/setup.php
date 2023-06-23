@@ -53,6 +53,20 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
 function enqueue_theme_scripts()
 {
     /**
+     * Registers and loads vendor styles and scripts.
+     */
+
+    wp_register_script(
+        'jquery-easing',
+        THEME_URI . 'assets/build/js/jquery.easing.min.js',
+        array( 'jquery' ),
+        false,
+        true
+    );
+    wp_enqueue_script( 'jquery-easing' );
+
+
+    /**
      * Registers and loads the theme's own styles and scripts.
      *
      * Note: The style.css in the main directory is only used for theme identification and versioning.
