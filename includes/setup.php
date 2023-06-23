@@ -50,7 +50,7 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\theme_setup' );
  * @since  1.0.0
  */
 
-function enqueue_theme_scripts()
+function theme_scripts()
 {
     /**
      * Registers and loads vendor styles and scripts.
@@ -93,4 +93,4 @@ function enqueue_theme_scripts()
 
 }
 
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_theme_scripts', 9999 );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\theme_scripts', 9999 );
