@@ -80,7 +80,7 @@ function enqueue_theme_scripts()
         THEME_VERSION
     );
 
-/*
+
     wp_enqueue_script(
         'mdb-kanzlei-frontend-script',
         THEME_URI . 'assets/build/js/frontend.min.js',          // change path/name if necessary
@@ -90,7 +90,7 @@ function enqueue_theme_scripts()
         THEME_VERSION,
         true
     );
-*/
+
 }
 
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_theme_scripts', 9999 );
