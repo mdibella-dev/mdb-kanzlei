@@ -1,0 +1,19 @@
+/**
+ * Block: core/media-text
+ *
+ * @author  Marco Di Bella
+ * @package mdb-kanzlei
+ */
+
+
+@media (max-width: 600px)
+    .wp-block-media-text.is-stacked-on-mobile {
+        gap: 2rem;
+    }
+}
+
+
+.wp-block-media-text__media img,
+.wp-block-media-text__media video {
+    border-radius: 3px;
+}
