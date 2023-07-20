@@ -26,6 +26,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive
 ### Latest changes to the main branch
 
 * New: Add smooth scroll ([#2](https://github.com/mdibella-dev/mdb-kanzlei/issues/2))
+* Improve: Change array notation
 
 
 ### Previous changes

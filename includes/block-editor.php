@@ -35,7 +35,9 @@ function block_editor_settings_all( $editor_settings )
         }
     ';
 
-    $editor_settings['styles'][] = array( 'css' => $styles );
+    $editor_settings['styles'][] = [
+        'css' => $styles
+    ];
 
     return $editor_settings;
 }

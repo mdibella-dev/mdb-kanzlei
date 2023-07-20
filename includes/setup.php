@@ -59,12 +59,14 @@ function theme_scripts()
     wp_register_script(
         'jquery-easing',
         THEME_URI . 'assets/build/js/jquery.easing.min.js',
-        array( 'jquery' ),
+        [
+            'jquery'
+        ],
         false,
         true
     );
     wp_enqueue_script( 'jquery-easing' );
-    
+
 
     /**
      * Registers and loads the theme's own styles and scripts.
@@ -76,16 +78,16 @@ function theme_scripts()
     wp_enqueue_style(
         'mdb-kanzlei-frontend-style',
         THEME_URI . 'assets/build/css/style-frontend.min.css',  // change path/name if necessary
-        array(),
+        [],
         THEME_VERSION
     );
 
     wp_enqueue_script(
         'mdb-kanzlei-frontend-script',
         THEME_URI . 'assets/build/js/frontend.min.js',          // change path/name if necessary
-        array(
+        [
             'jquery'
-        ),
+        ],
         THEME_VERSION,
         true
     );
