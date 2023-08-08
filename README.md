@@ -27,6 +27,7 @@ gutenberg, block-editor, full-site-editing, translation-ready, responsive
 
 * New: Add smooth scroll ([#2](https://github.com/mdibella-dev/mdb-kanzlei/issues/2))
 * Improve: Change array notation
+* Improve: Change clamping style
 
 
 ### Previous changes

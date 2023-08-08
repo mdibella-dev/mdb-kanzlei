@@ -27,8 +27,7 @@ defined( 'ABSPATH' ) or exit;
  * @return array The modified settings.
  */
 
-function block_editor_settings_all( $editor_settings )
-{
+function block_editor_settings_all( $editor_settings ) {
     $styles = '
         .edit-post-visual-editor__post-title-wrapper {
             display: none;
